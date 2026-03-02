@@ -1,0 +1,20 @@
+{
+  "id": "Rj20GpdzQJvm58ws",
+  "name": "nikhil_test",
+  "columns": [
+    {
+      "id": "jcjzREURDy2KaE4R",
+      "name": "name",
+      "type": "string",
+      "index": 0
+    }
+  ],
+  "ownedBy": {
+    "type": "personal",
+    "projectId": "LCScr3cEdUWB4Acf",
+    "projectName": "nikhil kuria <nikhil@kuria.com>",
+    "personalEmail": "nikhil@kuria.com"
+  },
+  "createdAt": "2026-03-02T11:48:05.874Z",
+  "updatedAt": "2026-03-02T11:48:15.616Z"
+}

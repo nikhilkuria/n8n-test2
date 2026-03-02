@@ -1,0 +1,65 @@
+{
+  "id": "pVeDbvxi5ZVMqmuB",
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "path": "a47dcdfc-6939-4bac-b0be-8447cb79790f",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        -32,
+        -112
+      ],
+      "id": "002a4ae1-fa48-4fe6-b387-59524a35858b",
+      "name": "Webhook",
+      "webhookId": "a47dcdfc-6939-4bac-b0be-8447cb79790f"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.debugHelper",
+      "typeVersion": 1,
+      "position": [
+        208,
+        -192
+      ],
+      "id": "ef493c65-1ff6-47cd-bbc7-5867d7e18e82",
+      "name": "DebugHelper"
+    }
+  ],
+  "connections": {
+    "Webhook": {
+      "main": [
+        [
+          {
+            "node": "DebugHelper",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "DebugHelper": {
+      "main": [
+        []
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "triggerCount": 1,
+  "versionId": "9e316784-35ac-4fcb-b9c6-c6cf68f2efd5",
+  "owner": {
+    "type": "personal",
+    "projectId": "LCScr3cEdUWB4Acf",
+    "projectName": "nikhil kuria <nikhil@kuria.com>",
+    "personalEmail": "nikhil@kuria.com"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

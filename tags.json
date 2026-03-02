@@ -1,0 +1,30 @@
+{
+  "tags": [
+    {
+      "id": "mDbr8FMH4PWIlzC0",
+      "name": "PROD"
+    },
+    {
+      "id": "GxlGxXi0GlAjG0YS",
+      "name": "NEW"
+    },
+    {
+      "id": "zGqBwCgyPNLiLOjy",
+      "name": "TEST"
+    }
+  ],
+  "mappings": [
+    {
+      "workflowId": "pVeDbvxi5ZVMqmuB",
+      "tagId": "GxlGxXi0GlAjG0YS"
+    },
+    {
+      "workflowId": "pVeDbvxi5ZVMqmuB",
+      "tagId": "mDbr8FMH4PWIlzC0"
+    },
+    {
+      "workflowId": "pVeDbvxi5ZVMqmuB",
+      "tagId": "zGqBwCgyPNLiLOjy"
+    }
+  ]
+}
