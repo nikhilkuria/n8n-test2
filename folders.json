@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {
+      "id": "ISbx6NYJ3zAh0g7d",
+      "name": "test",
+      "parentFolderId": null,
+      "homeProjectId": "BwliHRL86OmOOE8G",
+      "createdAt": "2026-03-02T15:42:52.067Z",
+      "updatedAt": "2026-03-02T15:42:52.067Z"
+    },
+    {
+      "id": "mmI0BMQxObS4TgBe",
+      "name": "test2",
+      "parentFolderId": "ISbx6NYJ3zAh0g7d",
+      "homeProjectId": "BwliHRL86OmOOE8G",
+      "createdAt": "2026-03-02T15:43:00.553Z",
+      "updatedAt": "2026-03-02T15:43:00.553Z"
+    },
+    {
+      "id": "Rtv7a5qzgCb2p94z",
+      "name": "test3",
+      "parentFolderId": "mmI0BMQxObS4TgBe",
+      "homeProjectId": "BwliHRL86OmOOE8G",
+      "createdAt": "2026-03-02T15:43:10.136Z",
+      "updatedAt": "2026-03-02T15:43:10.136Z"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "K4tl0hSeiWqWkn4u",
+  "name": "secret",
+  "icon": {
+    "type": "icon",
+    "value": "layers"
+  },
+  "description": "",
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "K4tl0hSeiWqWkn4u",
+    "teamName": "secret"
+  },
+  "variableStubs": []
+}

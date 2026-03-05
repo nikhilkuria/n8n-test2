@@ -1,0 +1,14 @@
+{
+  "id": "f3K6Ed70mUegWjIf",
+  "name": "Slack account",
+  "type": "slackApi",
+  "data": {
+    "accessToken": ""
+  },
+  "ownedBy": {
+    "type": "team",
+    "teamId": "BwliHRL86OmOOE8G",
+    "teamName": "My project"
+  },
+  "isGlobal": false
+}
