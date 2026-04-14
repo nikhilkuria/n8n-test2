@@ -1,0 +1,19 @@
+{
+  "id": "sF3kUlkTnGkXtXyP",
+  "name": "neha-table1",
+  "columns": [
+    {
+      "id": "vqNv9GXwmF6QFwi7",
+      "name": "name",
+      "type": "string",
+      "index": 0
+    }
+  ],
+  "ownedBy": {
+    "type": "team",
+    "teamId": "n57NvLbGTc3eYIQA",
+    "teamName": "neha"
+  },
+  "createdAt": "2026-04-14T15:02:40.046Z",
+  "updatedAt": "2026-04-14T15:02:45.389Z"
+}
