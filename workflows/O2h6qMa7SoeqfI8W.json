@@ -1,0 +1,54 @@
+{
+  "id": "O2h6qMa7SoeqfI8W",
+  "name": "neha-wf1",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "654ef420-e3bb-4515-9aa4-847e57fe8f01",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "889469a5-d5cc-42c0-a0c9-becd20c281e5",
+      "name": "No Operation, do nothing"
+    }
+  ],
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "No Operation, do nothing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "triggerCount": 0,
+  "versionId": "f5660949-a1ad-421b-85e4-9520e7d33d32",
+  "owner": {
+    "type": "team",
+    "teamId": "n57NvLbGTc3eYIQA",
+    "teamName": "neha"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

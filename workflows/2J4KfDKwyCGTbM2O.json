@@ -1,0 +1,63 @@
+{
+  "id": "2J4KfDKwyCGTbM2O",
+  "name": "nikhil-wf1",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "afcc1f6f-c7cf-45e1-a379-ba2cc5c3a3e3",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "operation": "get",
+        "dataTableId": {
+          "__rl": true,
+          "value": "k0gQ9RJujnSsYX47",
+          "mode": "list",
+          "cachedResultName": "nikhil-table1",
+          "cachedResultUrl": "/projects/cPkLxyUevGD3GtIk/datatables/k0gQ9RJujnSsYX47"
+        }
+      },
+      "type": "n8n-nodes-base.dataTable",
+      "typeVersion": 1.1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "21aad76d-5a1a-4545-9be6-bc479dfe134e",
+      "name": "Get row(s)"
+    }
+  ],
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Get row(s)",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "triggerCount": 0,
+  "versionId": "45c26c8b-6511-4bdd-9f97-c11b0db40518",
+  "owner": {
+    "type": "team",
+    "teamId": "cPkLxyUevGD3GtIk",
+    "teamName": "nikhil"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

@@ -1,0 +1,54 @@
+{
+  "id": "t4pisAMM1A6xzfi6",
+  "name": "nikhil-wf2",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "71ef77a9-31d5-4c12-b783-e1321f42ee1b",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "e89afa1a-de0c-4f44-84e3-d590117cfb07",
+      "name": "No Operation, do nothing"
+    }
+  ],
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "No Operation, do nothing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "triggerCount": 0,
+  "versionId": "8c46f2e8-7fbc-4dba-ad1d-4826e256a8da",
+  "owner": {
+    "type": "team",
+    "teamId": "cPkLxyUevGD3GtIk",
+    "teamName": "nikhil"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

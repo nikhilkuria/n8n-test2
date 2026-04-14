@@ -1,0 +1,55 @@
+{
+  "id": "cvX3GMstLoPzEZTz",
+  "name": "debella1",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "c9b8823d-e4c6-4f3d-97ec-2b59ba4f46a7",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.noOp",
+      "typeVersion": 1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "69163909-5960-4008-8b28-156d858117ae",
+      "name": "No Operation, do nothing"
+    }
+  ],
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "No Operation, do nothing",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "triggerCount": 0,
+  "versionId": "1fe15ac1-b62d-4be3-92ac-5cda59d9830c",
+  "owner": {
+    "type": "personal",
+    "projectId": "zA1GF6cIp6PNr6AF",
+    "projectName": "Nikhil Kuria <nikhil@kuria.com>",
+    "personalEmail": "nikhil@kuria.com"
+  },
+  "parentFolderId": null,
+  "isArchived": false
+}

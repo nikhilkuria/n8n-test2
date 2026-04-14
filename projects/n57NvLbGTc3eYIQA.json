@@ -1,0 +1,16 @@
+{
+  "id": "n57NvLbGTc3eYIQA",
+  "name": "neha",
+  "icon": {
+    "type": "icon",
+    "value": "layers"
+  },
+  "description": "",
+  "type": "team",
+  "owner": {
+    "type": "team",
+    "teamId": "n57NvLbGTc3eYIQA",
+    "teamName": "neha"
+  },
+  "variableStubs": []
+}
